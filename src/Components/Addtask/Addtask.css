@@ -1,0 +1,29 @@
+
+.taskform{
+    display: flex;
+    justify-content: space-around;
+    width: 50vh;
+    margin-left: 3em;
+}
+.description{
+    height: 20px;
+}
+.submitbtn{
+    background-color: rgba(0, 255, 255, 0.393);
+   
+}
+button:hover{
+    cursor: pointer;
+    border: 1px solid red;
+    margin: 0 0.5rem;
+    border-radius: 0.9em;
+    padding: 0.3em;
+}
+.submitbtn:hover{
+    background-color: green;
+   
+}
+.itemsBtn button{
+    background-color: rgba(0, 255, 255, 0.393);
+    
+}

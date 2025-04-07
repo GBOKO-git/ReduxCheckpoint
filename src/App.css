@@ -1,0 +1,21 @@
+body{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.todo{
+  background-color: rgb(187, 156, 156);
+  display: flex;
+  justify-content: center;
+  min-height: 80vh;
+  width: 100vh;
+  border: 2px solid rgb(225, 73, 73);
+  border-radius: 2px;
+  text-align: center;
+}
+h1 {
+  font-size: 2.2em;
+  line-height: 1.1;
+}
