@@ -6,14 +6,14 @@ const initialState = {
             id: Date.now(),
             description: 'GOMYCODE : dev full stack'
         },
-        {
-            id: Date.now(),
-            description: 'Prof : Mr Maxence'
-        },
-        {
-            id: Date.now(),
-            description: 'Dev : Amara Gboko'
-        },
+        // {
+        //     id: Date.now(),
+        //     description: 'Prof : Mr Maxence'
+        // },
+        // {
+        //     id: Date.now(),
+        //     description: 'Dev : Amara Gboko'
+        // },
     ],  // Ceci doit être un tableau
     filter: 'all', // 'all', 'done', 'not_done'
   };

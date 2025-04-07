@@ -21,7 +21,7 @@ const Tasklist = () => {
                 <ul>
                     {
                         filteredTasks.map((task) => (
-                            <li key={task.id} type="none" className="tasksItems"
+                            <li key={task.description} type="none" className="tasksItems"
                             style={{textDecoration: task.isDone ? "line-through" : "none",}}>
                                 <Task task={task} />
                             </li>
